@@ -1,0 +1,15 @@
+{
+  "name": "residibot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@cf-wasm/resvg": "^0.3.3"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  },
+  "scripts": {
+    "deploy": "wrangler deploy"
+  }
+}

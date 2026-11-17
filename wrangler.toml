@@ -1,0 +1,15 @@
+name = "residibot"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[observability]
+enabled = true
+
+[[kv_namespaces]]
+binding = "STATE"
+id = "PASTE_KV_ID_HERE"
+
+[[rules]]
+type = "CompiledWasm"
+globs = ["**/*.wasm"]
